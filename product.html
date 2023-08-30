@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenshop</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__block flex">
+                <a href="index.html" class="header__logo">
+                    <img src="../img/Logo.svg" alt="Logotype Greenshop">
+                </a>
+                <nav class="header__nav nav">
+                    <ul class="nav__list flex list-reset">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link nav__link--active">Shop</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="" class="nav__link">Plant Care</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="" class="nav__link">Blogs</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="header__list flex list-reset">
+                    <li class="header__item">
+                        <button class="search btn-reset">
+                            <svg class="icon" width="20" height="20">
+                                <use xlink:href="../img/sprite.svg#search"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="header__item">
+                        <button class="cart btn-reset">
+                            <svg class="icon" width="24" height="24">
+                                <use xlink:href="../img/sprite.svg#cart"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="header__item">
+                        <button class="login btn-reset">
+                            <svg class="icon" width="15.5" height="16">
+                                <use xlink:href="../img/sprite.svg#Logout"></use>
+                            </svg>Login
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="page">
+                <a href="index.html"><span class="page__prev">Home</span></a>              
+                /
+                <span class="page__current">Shop</span>
+            </div>
+        </div>
+        <section class="product">
+            <div class="container">
+                <div class="product__block">
+                    <div class="product__left">
+                        <img src="../img/product-11.jpg" alt="">
+                        <img src="../img/product-12.jpg" alt="">
+                        <img src="../img/product-11.jpg" alt="">
+                        <img src="../img/product-12.jpg" alt="">
+                        <img src="../img/product-13.jpg" alt="">
+                    </div>
+                    <div class="product__right">
+                        <h2 class="product__title">Barberton Daisy</h2>
+                        <div class="product__box flex">
+                            <p class="product__price">$119.00</p>
+                            <div class="product__rating flex">
+                                <div class="rating flex">
+                                    <img src="../img/Star-yellow.svg" alt="star">
+                                    <img src="../img/Star-yellow.svg" alt="star">
+                                    <img src="../img/Star-yellow.svg" alt="star">
+                                    <img src="../img/Star-yellow.svg" alt="star">
+                                    <img src="../img/Star-gray.svg" alt="star">
+                                </div>
+                                <a href="" class="product__reviews">19 Customer Review</a>
+                            </div>
+
+                        </div>
+                        <p class="product__caption">Short Description:</p>
+                        <p class="product__descr">The ceramic cylinder planters come with a wooden stand to help elevate
+                            your plants off the ground. The ceramic cylinder planters come with a wooden stand to help
+                            elevate your plants off the ground. </p>
+                        <form action="" class="product__form form">
+                            <fieldset class="form__fieldset">
+                                <legend class="product__legend">Size:</legend>
+                                <div class="form__radio radio flex">
+                                    <label class="radio__label">
+                                        <input type="radio" name="size" value="S">
+                                        <span class="radio__value">S</span>
+                                    </label>
+                                    <label class="radio__label">
+                                        <input type="radio" name="size" value="M">
+                                        <span class="radio__value">M</span>
+                                    </label>
+                                    <label class="radio__label">
+                                        <input type="radio" name="size" value="L">
+                                        <span class="radio__value">L</span>
+                                    </label>
+                                    <label class="radio__label">
+                                        <input type="radio" name="size" value="XL">
+                                        <span class="radio__value">XL</span>
+                                    </label>
+
+                                </div>
+                            </fieldset>
+                            <div class="form__btns flex">
+                                <div class="quantity">
+                                    <button class="btn-reset quantity__btn quantity__btn--decrement"></button>
+                                    <span class="quantity__value">1</span>
+                                    <button class="btn-reset quantity__btn quantity__btn--increment"></button>
+                                </div>
+                                <button class="btn-reset form__buy">Buy NOW</button>
+                                <button class="btn-reset form__add">Add to cart</button>
+                                <button class="btn-reset form__favourite">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 18.8873C9.71527 18.8873 9.44077 18.7842 9.22684 18.5968C8.41888 17.8903 7.63992 17.2264 6.95267 16.6408L6.94916 16.6377C4.93423 14.9207 3.19427 13.4378 1.98364 11.9771C0.630341 10.3441 0 8.79578 0 7.10434C0 5.46097 0.563507 3.94485 1.58661 2.83508C2.62192 1.71219 4.04251 1.09375 5.58716 1.09375C6.74164 1.09375 7.79892 1.45874 8.72955 2.1785C9.19922 2.54181 9.62494 2.98645 10 3.5051C10.3752 2.98645 10.8008 2.54181 11.2706 2.1785C12.2012 1.45874 13.2585 1.09375 14.413 1.09375C15.9575 1.09375 17.3782 1.71219 18.4135 2.83508C19.4366 3.94485 20 5.46097 20 7.10434C20 8.79578 19.3698 10.3441 18.0165 11.9769C16.8059 13.4378 15.0661 14.9205 13.0515 16.6374C12.363 17.224 11.5828 17.8889 10.773 18.5971C10.5592 18.7842 10.2846 18.8873 10 18.8873ZM5.58716 2.26532C4.37363 2.26532 3.25882 2.74963 2.44781 3.62915C1.62476 4.52194 1.17142 5.75607 1.17142 7.10434C1.17142 8.52692 1.70013 9.79919 2.88559 11.2296C4.03137 12.6122 5.73563 14.0645 7.70889 15.7462L7.71255 15.7492C8.4024 16.3371 9.18442 17.0036 9.99832 17.7153C10.8171 17.0023 11.6003 16.3347 12.2916 15.7458C14.2647 14.0642 15.9688 12.6122 17.1146 11.2296C18.2999 9.79919 18.8286 8.52692 18.8286 7.10434C18.8286 5.75607 18.3752 4.52194 17.5522 3.62915C16.7413 2.74963 15.6264 2.26532 14.413 2.26532C13.524 2.26532 12.7078 2.54791 11.9872 3.10516C11.3449 3.60199 10.8975 4.23004 10.6352 4.66949C10.5003 4.89548 10.2629 5.03036 10 5.03036C9.73709 5.03036 9.49966 4.89548 9.36478 4.66949C9.10263 4.23004 8.65524 3.60199 8.01285 3.10516C7.29218 2.54791 6.47598 2.26532 5.58716 2.26532Z"/>
+                                        </svg>
+                                </button>
+                            </div>
+
+                        </form>
+                        <div class="product__info">
+                            <p class="product__text"><span>SKU: </span>1995751877966</p>
+                            <p class="product__text"><span>Categories: </span>Potter Plants</p>
+                            <p class="product__text"><span>Tags: </span>Home, Garden, Plants</p>
+                        </div>
+                        <div class="product__public public flex">
+                            <p class="public__share">Share this products:</p>
+                            <ul class="list-reset public__list flex">
+                                <li class="public__item">
+                                    <a href="" class="public__link public__link--fb"></a>
+                                </li>
+                                <li class="public__item">
+                                    <a href="" class="public__link public__link--tw"></a>
+                                </li>
+                                <li class="public__item">
+                                    <a href="" class="public__link public__link--in"></a>
+                                </li>
+                                <li class="public__item">
+                                    <a href="" class="public__link public__link--email"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product__tabs tabs">
+                    <ul class="list-reset tabs__list flex">
+                        <li class="tabs__item">
+                            <a href="" class="tabs__link tabs__link--active" data-path="descr">Product Description</a>
+                        </li>
+                        <li class="tabs__item">
+                            <a href="" class="tabs__link" data-path="reviews">Reviews (19)</a>
+                        </li>
+                    </ul>
+                    <div data-target="descr" class="tabs__box tabs__box--active">
+                        <p class="tabs__descr">
+                            The ceramic cylinder planters come with a wooden stand to help elevate your plants off the
+                            ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants
+                            off the ground. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue
+                            nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis
+                            justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla.
+                        </p>
+                        <p class="tabs__descr">
+                            Pellentesque aliquet, sem eget laoreet ultrices, ipsum metus feugiat sem, quis fermentum
+                            turpis eros eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam,
+                            purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non
+                            neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et
+                            placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio quis mi. Cras neque
+                            metus, consequat et blandit et, luctus a nunc. Etiam gravida vehicula tellus, in imperdiet
+                            ligula euismod eget. The ceramic cylinder planters come with a wooden stand to help elevate
+                            your plants off the ground.
+                        </p>
+                        <p class="tabs__descr tabs__descr--bold">Living Room:</p>
+                        <p class="tabs__descr">The ceramic cylinder planters come with a wooden stand to help elevate
+                            your plants off the ground. The ceramic cylinder planters come with a wooden stand to help
+                            elevate your plants off the ground. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                        <p class="tabs__descr tabs__descr--bold">Dining Room:</p>
+                        <p class="tabs__descr">The benefits of houseplants are endless. In addition to cleaning the air
+                            of harmful toxins, they can help to improve your mood, reduce stress and provide you with
+                            better sleep. Fill every room of your home with houseplants and their restorative qualities
+                            will improve your life.</p>
+                        <p class="tabs__descr tabs__descr--bold">Office:</p>
+                        <p class="tabs__descr">The ceramic cylinder planters come with a wooden stand to help elevate
+                            your plants off the ground. The ceramic cylinder planters come with a wooden stand to help
+                            elevate your plants off the ground. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+
+                    </div>
+                    <div data-target="reviews" class="tabs__box">
+                        <p class="tabs__descr">
+                            Pellentesque aliquet, sem eget laoreet ultrices, ipsum metus feugiat sem, quis fermentum
+                            turpis eros eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam,
+                            purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non
+                            neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et
+                            placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio quis mi. Cras neque
+                            metus, consequat et blandit et, luctus a nunc. Etiam gravida vehicula tellus, in imperdiet
+                            ligula euismod eget. The ceramic cylinder planters come with a wooden stand to help elevate
+                            your plants off the ground.
+                        </p>
+                        <p class="tabs__descr tabs__descr--bold">Living Room:</p>
+                        <p class="tabs__descr">The ceramic cylinder planters come with a wooden stand to help elevate
+                            your plants off the ground. The ceramic cylinder planters come with a wooden stand to help
+                            elevate your plants off the ground. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                        <p class="tabs__descr tabs__descr--bold">Dining Room:</p>
+                        <p class="tabs__descr">The benefits of houseplants are endless. In addition to cleaning the air
+                            of harmful toxins, they can help to improve your mood, reduce stress and provide you with
+                            better sleep. Fill every room of your home with houseplants and their restorative qualities
+                            will improve your life.</p>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <h2 class="products__title">Releted Products</h2>
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="products__item">
+                                <a href="" class="products__link">
+                                    <article class="products__article">
+                                        <img src="../img/product-4.jpg" alt="">
+                                        <span class="products__name">Beach Spider Lily</span>
+                                        <span class="products__price">$129.00</span>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="products__item">
+                                <a href="" class="products__link">
+                                    <article class="products__article">
+                                        <img src="../img/product-5.jpg" alt="">
+                                        <span class="products__name">Blushing Bromeliad</span>
+                                        <span class="products__price">$139.00</span>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="products__item">
+                                <a href="" class="products__link">
+                                    <article class="products__article">
+                                        <img src="../img/product-6.jpg" alt="">
+                                        <span class="products__name">Aluminum Plant</span>
+                                        <span class="products__price">$179.00</span>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="products__item">
+                                <a href="" class="products__link">
+                                    <article class="products__article">
+                                        <img src="../img/product-7.jpg" alt="">
+                                        <span class="products__name">Bird's Nest Fern</span>
+                                        <span class="products__price">$99.00</span>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="products__item">
+                                <a href="" class="products__link">
+                                    <article class="products__article">
+                                        <img src="../img/product-9.jpg" alt="">
+                                        <span class="products__name">Chinese Evergreen</span>
+                                        <span class="products__price">$39.00</span>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="products__item">
+                                <a href="../html/product.html" class="products__link">
+                                    <article class="products__article">
+                                        <img src="../img/product-1.jpg" alt="">
+                                        <span class="products__name">Barberton Daisy</span>
+                                        <span class="products__price">$119.00</span>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="products__item">
+                                <a href="" class="products__link">
+                                    <article class="products__article">
+                                        <img src="../img/product-2.jpg" alt="">
+                                        <span class="products__name">Angel Wing Begonia</span>
+                                        <span class="products__price">$169.00</span>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="products__item">
+                                <a href="" class="products__link">
+                                    <article class="products__article">
+                                        <img src="../img/product-3.jpg" alt="">
+                                        <span class="products__name">African Violet</span>
+                                        <span class="products__price">$199.00</span>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="products__item">
+                                <a href="" class="products__link">
+                                    <article class="products__article">
+                                        <img src="../img/product-8.jpg" alt="">
+                                        <span class="products__name">Broadleaf Lady Palm</span>
+                                        <span class="products__price">$59.00</span>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="products__item">
+                                <a href="" class="products__link">
+                                    <article class="products__article">
+                                        <img src="../img/product-5.jpg" alt="">
+                                        <span class="products__name">Blushing Bromeliad</span>
+                                        <span class="products__price">$139.00</span>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <ul class="info list-reset">
+                    <li class="info__item pic-1">
+                        <span class="info__name">Garden Care</span>
+                        <p class="info__descr">We are an online plant shop offering a wide range of cheap and trendy
+                            plants.</p>
+                    </li>
+                    <li class="info__item pic-2">
+                        <span class="info__name">Plant Renovation</span>
+                        <p class="info__descr">We are an online plant shop offering a wide range of cheap and trendy
+                            plants.</p>
+                    </li>
+                    <li class="info__item pic-3">
+                        <span class="info__name">Watering Graden</span>
+                        <p class="info__descr">We are an online plant shop offering a wide range of cheap and trendy
+                            plants.</p>
+                    </li>
+                </ul>
+                <div class="join">
+                    <p class="join__title">Would you like to join newsletters?</p>
+                    <form action="" class="join__form">
+                        <input type="text" class="join__form__input" placeholder="enter your email address...">
+                        <button class="join__form__btn btn-reset">Join</button>
+
+                    </form>
+                    <p class="join__descr">We usually post offers and challenges in newsletter. We’re your online
+                        houseplant destination. We offer a wide range of houseplants and accessories shipped directly
+                        from our (green)house to yours! </p>
+                </div>
+            </div>
+            <div class="footer__center">
+                <a href="" class="footer__logo">
+                    <img src="../img/Logo.svg" alt="Logotype Greenshop">
+                </a>
+                <address class="address">
+                    <ul class="address__list list-reset">
+                        <li class="address__item location">
+                            <span class="address__location">70 West Buckingham Ave.
+                                Farmingdale, NY 11735</span>
+                        </li>
+                        <li class="address__item email">
+                            <a href="mailto:contact@greenshop.com" class="address__link">contact@greenshop.com</a>
+                        </li>
+                        <li class="address__item tel">
+                            <a href="telto:+8801911717490" class="address__link">+88 01911&nbsp;717&nbsp;490</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__block">
+                    <h3 class="footer__block__title">My Account</h3>
+                    <ul class="footer__block__list list-reset">
+                        <li class="footer__block__item">
+                            <a href="index.html" class="footer__block__link">My Account</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Our stores</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Contact us</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Career</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Specials</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__block">
+                    <h3 class="footer__block__title">Help & Guide</h3>
+                    <ul class="footer__block__list list-reset">
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Help Center</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">How to Buy</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Shipping & Delivery</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Product Policy</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">How to Return</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__block">
+                    <h3 class="footer__block__title">Categories</h3>
+                    <ul class="footer__block__list list-reset">
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">House Plants</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Potter Plants</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Seeds</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Small Plants</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Accessories</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__block">
+                    <div class="right-block">
+                        <h3 class="footer__block__title">Social Media</h3>
+                        <ul class="social list-reset">
+                            <li class="social__item">
+                                <a href="" class="social__link">
+                                    <svg class="icon" width="8" height="16">
+                                        <use xlink:href="../img/sprite.svg#Facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="" class="social__link">
+                                    <svg class="icon" width="16" height="16">
+                                        <use xlink:href="../img/sprite.svg#Instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="" class="social__link">
+                                    <svg class="icon" width="16" height="13">
+                                        <use xlink:href="../img/sprite.svg#Twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="" class="social__link">
+                                    <svg class="icon" width="16" height="15">
+                                        <use xlink:href="../img/sprite.svg#Linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="" class="social__link">
+                                    <svg class="icon" width="19" height="14">
+                                        <use xlink:href="../img/sprite.svg#Union"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right-block">
+                        <h3 class="footer__block__title">We accept</h3>
+                        <img src="../img/accept.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <p class="copy">© 2021 GreenShop. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/product.js"></script>
+</body>
+
+</html>

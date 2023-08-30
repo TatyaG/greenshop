@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenshop</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__block">
+                
+                <a href="index.html" class="header__logo">
+                    <img src="../img/Logo.svg" alt="Logotype Greenshop">
+                </a>
+                <nav class="header__nav nav">
+                    <ul class="nav__list flex list-reset">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link nav__link--active">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="" class="nav__link">Shop</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="" class="nav__link">Plant Care</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="" class="nav__link">Blogs</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="header__list flex list-reset">
+                    <li class="header__item">
+                        <button class="search btn-reset">
+                            <svg class="icon" width="20" height="20">
+                                <use xlink:href="../img/sprite.svg#search"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="header__item">
+                        <button class="cart btn-reset">
+                            <svg class="icon" width="24" height="24">
+                                <use xlink:href="../img/sprite.svg#cart"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="header__item">
+                        <button class="login btn-reset">
+                            <svg class="icon" width="15.5" height="16">
+                                <use xlink:href="../img/sprite.svg#Logout"></use>
+                            </svg>Login
+                        </button>
+                    </li>
+                </ul>
+                <button class="burger">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </button>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <h1 class="visually-hidden">Plant store Greenshop</h1>
+        <section class="hero">
+            <div class="container">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="../img/slide-1.png" alt="">
+                            <div class="hero__content">
+                                <p class="hero__text">Welcome to GreenShop</p>
+                                <h2 class="hero__title">Let’s Make a Better <span class="green">Planet</span></h2>
+                                <p class="hero__descr">We are an online plant shop offering a wide range of cheap and
+                                    trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite
+                                    plants!</p>
+                                <a href="" class="hero__link">Shop now</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"><img src="../img/slide-1.png" alt="">
+                            <div class="hero__content">
+                                <p class="hero__text">Welcome to GreenShop</p>
+                                <h2 class="hero__title">Let’s Make a Better <span class="green">Planet</span></h2>
+                                <p class="hero__descr">We are an online plant shop offering a wide range of cheap and
+                                    trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite
+                                    plants!</p>
+                                <a href="" class="hero__link">Shop now</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"><img src="../img/slide-1.png" alt="">
+                            <div class="hero__content">
+                                <p class="hero__text">Welcome to GreenShop</p>
+                                <h2 class="hero__title">Let’s Make a Better <span class="green">Planet</span></h2>
+                                <p class="hero__descr">We are an online plant shop offering a wide range of cheap and
+                                    trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite
+                                    plants!</p>
+                                <a href="" class="hero__link">Shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+
+            </div>
+        </section>
+        <section class="catalog">
+            <div class="container catalog__container">
+                <div class="filter">
+                    <button class="filter__btn"></button>
+                    <aside class="catalog__filter">
+                        <form action="" class="catalog__form form">
+                            <fieldset class="form__block">
+                                <legend class="form__legend">Categories</legend>
+                                <div class="form__container">
+                                    <label class="form__label">
+                                        <input class="form__input visually-hidden" type="checkbox">
+                                        <span class="form__input-label">House Plants</span>
+                                        <span class="form__count">(33)</span>
+                                    </label>
+                                    <label class="form__label">
+                                        <input class="form__input visually-hidden" type="checkbox">
+                                        <span class="form__input-label">Potter Plants</span>
+                                        <span class="form__count">(12)</span>
+                                    </label>
+                                    <label class="form__label">
+                                        <input class="form__input visually-hidden" type="checkbox">
+                                        <span class="form__input-label">Seeds</span>
+                                        <span class="form__count">(65)</span>
+                                    </label>
+                                    <label class="form__label">
+                                        <input class="form__input visually-hidden" type="checkbox">
+                                        <span class="form__input-label">Small Plants</span>
+                                        <span class="form__count">(39)</span>
+                                    </label>
+                                    <label class="form__label">
+                                        <input class="form__input visually-hidden" type="checkbox">
+                                        <span class="form__input-label">Big Plants</span>
+                                        <span class="form__count">(23)</span>
+                                    </label>
+                                    <label class="form__label">
+                                        <input class="form__input visually-hidden" type="checkbox">
+                                        <span class="form__input-label"> Succulents</span>
+                                        <span class="form__count">(17)</span>
+                                    </label>
+                                    <label class="form__label">
+                                        <input class="form__input visually-hidden" type="checkbox">
+                                        <span class="form__input-label">Terrariums</span>
+                                        <span class="form__count">(19)</span>
+                                    </label>
+                                    <label class="form__label">
+                                        <input class="form__input visually-hidden" type="checkbox">
+                                        <span class="form__input-label">Gardening</span>
+                                        <span class="form__count">(13)</span>
+                                    </label>
+                                    <label class="form__label">
+                                        <input class="form__input visually-hidden" type="checkbox">
+                                        <span class="form__input-label">Accessories</span>
+                                        <span class="form__count">(18)</span>
+                                    </label>
+                                </div>
+                            </fieldset>
+                            <fieldset class="form__block">
+                                <legend class="form__legend">Price Range</legend>
+                                <div class="form__container range">
+                                    <div class="wrapper">
+                                        <div class="container-wrapper">
+                                            <div class="slider-track"></div>
+                                            <input type="range" min="0" max="100" value="30" id="slider-1"
+                                                oninput="slideOne()">
+                                            <input type="range" min="0" max="100" value="70" id="slider-2"
+                                                oninput="slideTwo()">
+                                        </div>
+                                    </div>
+                                    <span class="form__price">
+                                        Price:
+                                        <span id="min-value" class="form__price-count"></span>
+                                        -
+                                        <span id="max-value" class="form__price-count"></span>
+                                    </span>
+                                    <button class="form__btn btn-reset">Filter</button>
+                                </div>
+                            </fieldset>
+                            <fieldset class="form__block">
+                                <legend class="form__legend">Size</legend>
+                                <div class="form__container">
+                                    <label class="form__label">
+    
+                                        <input class="form__input visually-hidden" type="checkbox">
+                                        <span class="form__input-label">Small</span>
+                                        <span class="form__count">(119)</span>
+                                    </label>
+                                    <label class="form__label">
+    
+                                        <input class="form__input visually-hidden" type="checkbox">
+                                        <span class="form__input-label">Medium</span>
+                                        <span class="form__count">(86)</span>
+                                    </label>
+                                    <label class="form__label">
+                                        <input class="form__input visually-hidden" type="checkbox">
+                                        <span class="form__input-label">Large</span>
+                                        <span class="form__count">(78)</span>
+                                    </label>
+                                </div>
+                            </fieldset>
+    
+                        </form>
+                        <img src="../img/sale.png" alt="Super Sale Banner">
+                    </aside>
+                </div>               
+                <div class="catalog__products products">
+                    <div class="products__sort sort">
+                        <ul class="sort__list list-reset">
+                            <li class="sort__item">
+                                <a href="" class="sort__link sort__link--active" data-path="all-plants">All Plants</a>
+                            </li>
+                            <li class="sort__item">
+                                <a href="" class="sort__link" data-path="new-arrivals">New Arrivals</a>
+                            </li>
+                            <li class="sort__item">
+                                <a href="" class="sort__link" data-path="sale">Sale</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="products__block products__block--active" data-page="1" data-target="all-plants">
+                        <ul class="products__list list-reset">
+                            <li class="products__item">
+                                <a href="product.html" class="products__link">
+                                <article class="products__article">
+                                    <img src="../img/product-1.jpg" alt="">
+                                    <span class="products__name">Barberton Daisy</span>
+                                    <span class="products__price">$119.00</span>
+                                </article>
+                            </a>
+                            </li>
+                            <li class="products__item">
+                                <a href="" class="products__link">
+                                <article class="products__article">
+                                    <img src="../img/product-2.jpg" alt="">
+                                    <span class="products__name">Angel Wing Begonia</span>
+                                    <span class="products__price">$169.00</span>
+                                </article>
+                            </a>
+                            </li>
+                            <li class="products__item">
+                                <a href="" class="products__link">
+                                <article class="products__article">
+                                    <img src="../img/product-3.jpg" alt="">
+                                    <span class="products__name">African Violet</span>
+                                    <span class="products__price">$199.00</span>
+                                </article>
+                                </a>
+                            </li>
+                            <li class="products__item sale">
+                                <a href="" class="products__link">
+                                <article class="products__article">
+                                    <img src="../img/product-4.jpg" alt="">
+                                    <span class="products__name">Beach Spider Lily</span>
+                                    <span class="products__price">$129.00</span>
+                                </article>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a href="" class="products__link">
+                                <article class="products__article">
+                                    <img src="../img/product-5.jpg" alt="">
+                                    <span class="products__name">Blushing Bromeliad</span>
+                                    <span class="products__price">$139.00</span>
+                                </article>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a href="" class="products__link">
+                                <article class="products__article">
+                                    <img src="../img/product-6.jpg" alt="">
+                                    <span class="products__name">Aluminum Plant</span>
+                                    <span class="products__price">$179.00</span>
+                                </article>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a href="" class="products__link">
+                                <article class="products__article">
+                                    <img src="../img/product-7.jpg" alt="">
+                                    <span class="products__name">Bird's Nest Fern</span>
+                                    <span class="products__price">$99.00</span>
+                                </article>
+                            </a>
+                            </li>
+                            <li class="products__item">
+                                <a href="" class="products__link">
+                                <article class="products__article">
+                                    <img src="../img/product-8.jpg" alt="">
+                                    <span class="products__name">Broadleaf Lady Palm</span>
+                                    <span class="products__price">$59.00</span>
+                                </article>
+                                </a>
+                            </li>
+                            <li class="products__item">
+                                <a href="" class="products__link">
+                                <article class="products__article">
+                                    <img src="../img/product-9.jpg" alt="">
+                                    <span class="products__name">Chinese Evergreen</span>
+                                    <span class="products__price">$39.00</span>
+                                </article>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="products__block" data-page="1" data-target="new-arrivals">
+                        <ul class="products__list list-reset">
+                            <li class="products__item">
+                                <article class="products__article">
+                                    <img src="../img/product-2.jpg" alt="">
+                                    <span class="products__name">Angel Wing Begonia</span>
+                                    <span class="products__price">$169.00</span>
+                                </article>
+                            </li>
+                            <li class="products__item">
+                                <article class="products__article">
+                                    <img src="../img/product-1.jpg" alt="">
+                                    <span class="products__name">Barberton Daisy</span>
+                                    <span class="products__price">$119.00</span>
+                                </article>
+                            </li>
+                            <li class="products__item sale">
+                                <article class="products__article">
+                                    <img src="../img/product-4.jpg" alt="">
+                                    <span class="products__name">Beach Spider Lily</span>
+                                    <span class="products__price">$129.00</span>
+                                </article>
+                            </li>
+                            <li class="products__item">
+                                <article class="products__article">
+                                    <img src="../img/product-3.jpg" alt="">
+                                    <span class="products__name">African Violet</span>
+                                    <span class="products__price">$199.00</span>
+                                </article>
+                            </li>
+                            <li class="products__item">
+                                <article class="products__article">
+                                    <img src="../img/product-8.jpg" alt="">
+                                    <span class="products__name">Broadleaf Lady Palm</span>
+                                    <span class="products__price">$59.00</span>
+                                </article>
+                            </li>
+                            <li class="products__item">
+                                <article class="products__article">
+                                    <img src="../img/product-5.jpg" alt="">
+                                    <span class="products__name">Blushing Bromeliad</span>
+                                    <span class="products__price">$139.00</span>
+                                </article>
+                            </li>
+                            <li class="products__item">
+                                <article class="products__article">
+                                    <img src="../img/product-9.jpg" alt="">
+                                    <span class="products__name">Chinese Evergreen</span>
+                                    <span class="products__price">$39.00</span>
+                                </article>
+                            </li>
+                            <li class="products__item">
+                                <article class="products__article">
+                                    <img src="../img/product-6.jpg" alt="">
+                                    <span class="products__name">Aluminum Plant</span>
+                                    <span class="products__price">$179.00</span>
+                                </article>
+                            </li>
+                            <li class="products__item">
+                                <article class="products__article">
+                                    <img src="../img/product-7.jpg" alt="">
+                                    <span class="products__name">Bird's Nest Fern</span>
+                                    <span class="products__price">$99.00</span>
+                                </article>
+                            </li>                                                      
+                        </ul>
+                    </div>
+                    <div class="products__block" data-page="1" data-target="sale">
+                        <ul class="products__list list-reset">
+                            <li class="products__item sale">
+                                <article class="products__article">
+                                    <img src="../img/product-4.jpg" alt="">
+                                    <span class="products__name">Beach Spider Lily</span>
+                                    <span class="products__price">$129.00</span>
+                                </article>
+                            </li>                                                     
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="container pagination">
+                <ul class="pagination__list list-reset">
+                    <li class="pagination__item">
+                        <a href="" class="pagination__link" data-number="prev">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.625 14.25C11.625 14.25 6.375 11.142 6.375 9C6.375 6.85875 11.625 3.75 11.625 3.75" stroke="#3D3D3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                
+                        </a>
+                    </li>
+                    <li class="pagination__item pagination__item--active">
+                        <a href="" class="pagination__link" data-number="1">1</a>
+                    </li>
+                    <li class="pagination__item">
+                        <a href="" class="pagination__link" data-number="2">2</a>
+                    </li>
+                    <li class="pagination__item">
+                        <a href="" class="pagination__link" data-number="3">3</a>
+                    </li>
+                    <li class="pagination__item">
+                        <a href="" class="pagination__link" data-number="4">4</a>
+                    </li>
+                    <li class="pagination__item">
+                        <a href="" class="pagination__link" data-number="next">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.375 3.75C6.375 3.75 11.625 6.858 11.625 9C11.625 11.1413 6.375 14.25 6.375 14.25" stroke="#3D3D3D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+        <section class="plants">
+            <div class="container">
+                <ul class="plants__list list-reset">
+                    <li class="plants__item image1">
+                        <article class="plants__article ">
+                            <img src="../img/plants-image1.png" alt="">
+                            <span class="plants__name">Summer cactus
+                                & succulents</span>
+                            <p class="plants__descr">We are an online plant shop offering a wide range of cheap and
+                                trendy plants</p>
+                            <a href="" class="plants__link">
+                                <span class="plants__link__text">Find more</span>
+                                </a>
+                        </article>
+                    </li>
+                    <li class="plants__item image2">
+                        <article class="plants__article">
+                            <img src="../img/plants-image2.png" alt="">
+                            <span class="plants__name">Styling Trends
+                                & much more</span>
+                            <p class="plants__descr">We are an online plant shop offering a wide range of cheap and
+                                trendy plants</p>
+                            <a href="" class="plants__link">
+                                <span class="plants__link__text">Find more</span>
+                            </a>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="blog">
+            <div class="container">
+                <h2 class="blog__title">Our Blog Posts</h2>
+                <p class="blog__descr">We are an online plant shop offering a wide range of cheap and trendy plants.
+                </p>
+                <ul class="blog__list list-reset">
+                    <li class="blog__item">
+                        <img src="../img/post-1.jpg" alt="">
+                        <article class="blog__article">
+                            <span class="blog__date">September 12 I Read in 6 minutes</span>
+                            <h3 class="blog__subtitle">Cactus & Succulent Care&nbsp;Tips</h3>
+                            <p class="blog__text">Cacti are succulents are easy care plants for any home or patio. </p>
+                            <a href="" class="blog__link">
+                                <span class="blog__link__text">Read More</span> 
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.66666 7.81714C2.66666 7.56401 2.85476 7.35481 3.09881 7.3217L3.16666 7.31714L13.1667 7.31714C13.4428 7.31714 13.6667 7.541 13.6667 7.81714C13.6667 8.07027 13.4786 8.27947 13.2345 8.31257L13.1667 8.31714H3.16666C2.89051 8.31714 2.66666 8.09328 2.66666 7.81714Z" fill="#3D3D3D"/>
+                                    <path d="M8.78066 4.15514C8.58498 3.9603 8.5843 3.64372 8.77914 3.44804C8.95627 3.27014 9.23401 3.25341 9.43006 3.39822L9.48624 3.44652L13.5196 7.46252C13.698 7.64017 13.7142 7.91891 13.5683 8.11496L13.5196 8.17111L9.48627 12.1878C9.29061 12.3826 8.97403 12.382 8.77917 12.1863C8.60203 12.0084 8.58646 11.7306 8.7321 11.5352L8.78063 11.4792L12.458 7.81663L8.78066 4.15514Z" fill="#3D3D3D"/>
+                                    </svg>                                    
+                            </a>
+                        </article>
+                    </li>
+                    <li class="blog__item">
+                        <img src="../img/post-2.jpg" alt="">
+                        <article class="blog__article">
+                            <span class="blog__date">September 13 I Read in 2 minutes</span>
+                            <h3 class="blog__subtitle">Top 10 Succulents for Your Home</h3>
+                            <p class="blog__text">Best in hanging baskets. Prefers medium to high light.</p>
+                            <a href="" class="blog__link">
+                                <span class="blog__link__text">Read More</span> 
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.66666 7.81714C2.66666 7.56401 2.85476 7.35481 3.09881 7.3217L3.16666 7.31714L13.1667 7.31714C13.4428 7.31714 13.6667 7.541 13.6667 7.81714C13.6667 8.07027 13.4786 8.27947 13.2345 8.31257L13.1667 8.31714H3.16666C2.89051 8.31714 2.66666 8.09328 2.66666 7.81714Z" fill="#3D3D3D"/>
+                                    <path d="M8.78066 4.15514C8.58498 3.9603 8.5843 3.64372 8.77914 3.44804C8.95627 3.27014 9.23401 3.25341 9.43006 3.39822L9.48624 3.44652L13.5196 7.46252C13.698 7.64017 13.7142 7.91891 13.5683 8.11496L13.5196 8.17111L9.48627 12.1878C9.29061 12.3826 8.97403 12.382 8.77917 12.1863C8.60203 12.0084 8.58646 11.7306 8.7321 11.5352L8.78063 11.4792L12.458 7.81663L8.78066 4.15514Z" fill="#3D3D3D"/>
+                                    </svg>                                    
+                            </a>
+                        </article>
+                    </li>
+                    <li class="blog__item">
+                        <img src="../img/post-3.jpg" alt="">
+                        <article class="blog__article">
+                            <span class="blog__date">September 15 I Read in 3 minutes</span>
+                            <h3 class="blog__subtitle">Cacti & Succulent Care&nbsp;Tips</h3>
+                            <p class="blog__text">Cacti and succulents thrive in containers and because most are..</p>
+                            <a href="" class="blog__link">
+                                <span class="blog__link__text">Read More</span> 
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.66666 7.81714C2.66666 7.56401 2.85476 7.35481 3.09881 7.3217L3.16666 7.31714L13.1667 7.31714C13.4428 7.31714 13.6667 7.541 13.6667 7.81714C13.6667 8.07027 13.4786 8.27947 13.2345 8.31257L13.1667 8.31714H3.16666C2.89051 8.31714 2.66666 8.09328 2.66666 7.81714Z" fill="#3D3D3D"/>
+                                    <path d="M8.78066 4.15514C8.58498 3.9603 8.5843 3.64372 8.77914 3.44804C8.95627 3.27014 9.23401 3.25341 9.43006 3.39822L9.48624 3.44652L13.5196 7.46252C13.698 7.64017 13.7142 7.91891 13.5683 8.11496L13.5196 8.17111L9.48627 12.1878C9.29061 12.3826 8.97403 12.382 8.77917 12.1863C8.60203 12.0084 8.58646 11.7306 8.7321 11.5352L8.78063 11.4792L12.458 7.81663L8.78066 4.15514Z" fill="#3D3D3D"/>
+                                    </svg>                                    
+                            </a>
+                        </article>
+                    </li>
+                    <li class="blog__item">
+                        <img src="../img/post-4.jpg" alt="">
+                        <article class="blog__article">
+                            <span class="blog__date">September 15 I Read in 2 minutes</span>
+                            <h3 class="blog__subtitle">Best Houseplants Room&nbsp;by Room</h3>
+                            <p class="blog__text">The benefits of houseplants are endless. In addition to..</p>
+                            <a href="" class="blog__link">
+                                <span class="blog__link__text">Read More</span> 
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.66666 7.81714C2.66666 7.56401 2.85476 7.35481 3.09881 7.3217L3.16666 7.31714L13.1667 7.31714C13.4428 7.31714 13.6667 7.541 13.6667 7.81714C13.6667 8.07027 13.4786 8.27947 13.2345 8.31257L13.1667 8.31714H3.16666C2.89051 8.31714 2.66666 8.09328 2.66666 7.81714Z" fill="#3D3D3D"/>
+                                    <path d="M8.78066 4.15514C8.58498 3.9603 8.5843 3.64372 8.77914 3.44804C8.95627 3.27014 9.23401 3.25341 9.43006 3.39822L9.48624 3.44652L13.5196 7.46252C13.698 7.64017 13.7142 7.91891 13.5683 8.11496L13.5196 8.17111L9.48627 12.1878C9.29061 12.3826 8.97403 12.382 8.77917 12.1863C8.60203 12.0084 8.58646 11.7306 8.7321 11.5352L8.78063 11.4792L12.458 7.81663L8.78066 4.15514Z" fill="#3D3D3D"/>
+                                    </svg>                                    
+                            </a>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__top">
+                    <ul class="info list-reset">
+                        <li class="info__item pic-1">
+                            <span class="info__name">Garden Care</span>
+                            <p class="info__descr">We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+                        </li>
+                        <li class="info__item pic-2">
+                            <span class="info__name">Plant Renovation</span>
+                            <p class="info__descr">We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+                        </li>
+                        <li class="info__item pic-3">
+                            <span class="info__name">Watering Graden</span>
+                            <p class="info__descr">We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+                        </li>
+                    </ul>
+                    <div class="join">
+                        <p class="join__title">Would you like to join newsletters?</p>
+                        <form action="" class="join__form">
+                            <input type="text" class="join__form__input" placeholder="enter your email address...">
+                            <button class="join__form__btn btn-reset">Join</button>
+        
+                        </form>
+                        <p class="join__descr">We usually post offers and challenges in newsletter. We’re your online houseplant destination. We offer a wide range of houseplants and accessories shipped directly from our (green)house to yours! </p>
+                    </div>
+                </div>
+                <div class="footer__center">
+                    <a href="index.html" class="footer__logo">
+                        <img src="../img/Logo.svg" alt="Logotype Greenshop">
+                    </a>
+                    <address class="address">
+                        <ul class="address__list list-reset">
+                            <li class="address__item location">
+                                <span class="address__location">70 West Buckingham Ave.
+                                    Farmingdale, NY 11735</span>
+                            </li>
+                            <li class="address__item email">
+                                <a href="mailto:contact@greenshop.com" class="address__link">contact@greenshop.com</a>
+                            </li>
+                            <li class="address__item tel">
+                                <a href="telto:+8801911717490" class="address__link">+88 01911&nbsp;717&nbsp;490</a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__block">
+                        <h3 class="footer__block__title">My Account</h3>
+                       <ul class="footer__block__list list-reset">
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">My Account</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Our stores</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Contact us</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Career</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Specials</a>
+                        </li>
+                    </ul> 
+                    </div>
+                    <div class="footer__block">
+                        <h3 class="footer__block__title">Help & Guide</h3>
+                       <ul class="footer__block__list list-reset">
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Help Center</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">How to Buy</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Shipping & Delivery</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Product Policy</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">How to Return</a>
+                        </li>
+                    </ul> 
+                    </div>
+                    <div class="footer__block">
+                        <h3 class="footer__block__title">Categories</h3>
+                       <ul class="footer__block__list list-reset">
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">House Plants</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Potter Plants</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Seeds</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Small Plants</a>
+                        </li>
+                        <li class="footer__block__item">
+                            <a href="" class="footer__block__link">Accessories</a>
+                        </li>
+                    </ul> 
+                    </div>
+                    <div class="footer__block">
+                        <div class="right-block">
+                            <h3 class="footer__block__title">Social Media</h3>
+                            <ul class="social list-reset">
+                                <li class="social__item">
+                                    <a href="" class="social__link">
+                                        <svg class="icon" width="8" height="16">
+                                            <use xlink:href="../img/sprite.svg#Facebook"></use>
+                                          </svg>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="" class="social__link">
+                                        <svg class="icon" width="16" height="16">
+                                            <use xlink:href="../img/sprite.svg#Instagram"></use>
+                                          </svg>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="" class="social__link">
+                                        <svg class="icon" width="16" height="13">
+                                            <use xlink:href="../img/sprite.svg#Twitter"></use>
+                                          </svg>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="" class="social__link">
+                                        <svg class="icon" width="16" height="15">
+                                            <use xlink:href="../img/sprite.svg#Linkedin"></use>
+                                          </svg>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="" class="social__link">
+                                        <svg class="icon" width="19" height="14">
+                                            <use xlink:href="../img/sprite.svg#Union"></use>
+                                          </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="right-block">
+                            <h3 class="footer__block__title">We accept</h3>
+                            <img src="../img/accept.png" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+                <p class="copy">© 2021 GreenShop. All Rights Reserved.</p>
+            </div>
+        </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
