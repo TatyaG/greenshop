@@ -305,6 +305,7 @@ a {
 
 .swiper-slide img {
     min-height: 414px;
+    object-fit: cover;
 }
 
 
